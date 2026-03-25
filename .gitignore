@@ -1,0 +1,80 @@
+# =========================
+# Python Backend
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual env
+venv/
+.env/
+.envrc
+
+# =========================
+# Node.js Frontend
+# =========================
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/build/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Model Files (VERY IMPORTANT)
+# =========================
+models/*.pt
+models/*.pth
+
+# =========================
+# Data / Images
+# =========================
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+
+# =========================
+# Temporary / Uploads
+# =========================
+uploads/
+temp/
+
+# =========================
+# Jupyter / Colab
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Cache / Misc
+# =========================
+.cache/
+*.sqlite3
+
+# =========================
+# Environment Variables
+# =========================
+.env
+frontend/.env
